@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +8,20 @@
 </head>
 <body>
     <div>
-        <h1>Formulário alatório</h1>
-
-    <form action="">
-        <p>Digite um número:</p>
-        <input type="number">
-        <p>Digite outro número</p>
-        <input type="number">
-        <button>Enviar e calcular</button>
-
-        <p>O resultado é:
-            <script>
-                ${resultado}
-            </script>
-        </p>
+            <h1>Formulário alatório</h1>
+    
+            <div class="n1">
+                <p>Digite um número:</p>
+            <input type="number" id="n1">
+            </div>
+            <div class="n2">
+                <p>Digite outro número</p>
+            <input type="number" id="n2">
+            </div>
+            <button type="button" onclick="calculadora()">Enviar e calcular</button>
+    
+            <p id="resultado">O resultado é: </p>
+    </div>
 </body>
+    
 </html>
